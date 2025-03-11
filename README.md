@@ -98,7 +98,23 @@ Antonio tiene 34 años y es profesor de secundaria en Granada. Siempre ha sido c
 ![Método UX](img/JourneyMap.png) 
 ----
 
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
+#### **Experiencia de Usuario - Laura Gómez**
+![User Journey Map 1](P1/UserJourneyMap1.png)  
+
+Laura valora la estética y la experiencia de compra fluida. Su recorrido en **Modare.org** refleja la exploración y comparación de productos antes de tomar una decisión. Uno de sus mayores problemas es la falta de información detallada en algunas prendas, lo que genera dudas al momento de la compra. Además, la espera en la entrega del pedido afecta su satisfacción general.  
+
+**¿Es una experiencia habitual?**  
+Sí, muchos usuarios de plataformas de segunda mano buscan productos únicos y necesitan información clara antes de comprar. La incertidumbre sobre tallas y la calidad de las prendas son preocupaciones comunes. Mejorar la descripción y la visualización de los productos puede hacer que la experiencia sea más satisfactoria.  
+
+---
+
+#### **Experiencia de Usuario - Antonio Ruiz**  
+![User Journey Map 2](P1/UserJourneyMap2.png)  
+
+Antonio representa a un usuario práctico que prioriza la funcionalidad y la rapidez en la compra. Su mayor problema es la falta de confianza en la plataforma, ya que no encuentra suficiente información sobre la calidad de las prendas y la facilidad de devolución. También siente que el proceso de compra podría ser más rápido y eficiente.  
+
+**¿Es una experiencia habitual?**  
+Sí, muchos compradores de ropa de segunda mano, especialmente aquellos que priorizan la comodidad y la sostenibilidad, buscan plataformas que ofrezcan procesos claros y sin complicaciones. Optimizar la confianza del usuario con mejores filtros, descripciones más detalladas y procesos de pago rápidos puede mejorar la retención de este tipo de clientes.  
 
 
 ### 1.e Usability Review
