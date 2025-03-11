@@ -22,8 +22,6 @@ Logotipo:
 Miembros:
  * :bust_in_silhouette:  [Cristian Cárdenas García](https://github.com/Cristiancar22)
 
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
-
 ----- 
 
 # Proceso de Diseño 
@@ -32,29 +30,69 @@ Miembros:
 
 ## Paso 1. UX User & Desk Research & Analisis 
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-
-### 1.a User Reseach Plan
+### 1.a User Research Plan
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
+La moda de segunda mano ha crecido significativamente en los últimos años debido a una mayor conciencia ambiental y el interés en el consumo responsable. **Modare.org** es una plataforma que promueve la compra de ropa reutilizada como alternativa sostenible y asequible frente a la moda rápida (*fast fashion*). 
+
+#### **Selección de usuarios**  
+Para esta investigación, se consideran dos perfiles de usuarios clave:
+
+1. **Jóvenes adultos (18-35 años)**  
+   - Interesados en la moda asequible y sostenible.  
+   - Acostumbrados a comprar ropa online y a utilizar redes sociales para descubrir tendencias.  
+   - Buscan prendas únicas y estilos diferenciados.  
+
+2. **Personas comprometidas con la sostenibilidad**  
+   - Prioritizan la reducción de su huella ecológica en su consumo.  
+   - Pueden no estar familiarizados con la compra de moda online, lo que puede generar barreras en la experiencia de usuario.  
+   - Buscan opciones de comercio justo y economía circular.  
+
+Estos perfiles permiten centrar el análisis en sus necesidades, expectativas y posibles dificultades al interactuar con la plataforma.  
 
 
 ### 1.b Competitive Analysis
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
+
+En esta sección se analizan dos plataformas de moda de segunda mano con el objetivo de comparar sus características y evaluar su impacto en la experiencia del usuario. Se ha seleccionado **Modare.org** como caso de estudio para el análisis de usabilidad.
+
+| **Plataforma**     | **Descripción** | **Puntos Fuertes** | **Puntos Débiles** |
+|--------------------|----------------|-------------------|------------------|
+| **Vinted** ([vinted.es](https://www.vinted.es)) | Plataforma global para la compra y venta de ropa de segunda mano entre particulares. | - Gran comunidad de usuarios. <br>- Interfaz intuitiva y optimizada. <br>- Filtros avanzados para búsqueda de prendas. | - Enfocada en transacciones entre particulares, no tanto en comercio local. <br>- Comisión en las compras. |
+| **Micolet** ([micolet.com](https://www.micolet.com)) | Tienda online especializada en moda de segunda mano con prendas revisadas y certificadas. | - Garantía de calidad en productos. <br>- Proceso de compra simplificado. <br>- Promueve el consumo sostenible. | - Menor flexibilidad en precios comparado con plataformas P2P. <br>- Oferta limitada en comparación con Vinted. |
+
+#### **Selección de Modare.org**  
+Se ha decidido analizar **Modare.org** porque se enfoca en la moda sostenible con un enfoque local en Granada. A diferencia de plataformas más globales como Vinted, Modare.org promueve un modelo basado en la economía circular dentro de una comunidad específica, lo que representa una oportunidad única para analizar la experiencia del usuario en este tipo de iniciativas. 
+
+El estudio se centrará en evaluar la facilidad de uso del sitio web, la claridad en la presentación de productos y la efectividad del proceso de compra.
 
 
 ### 1.c Personas
 ![Método UX](img/Persona.png) 
 -----
 
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
+#### **Persona 1: Laura Gómez**  
+![Laura Gómez](P1/Persona1.png)  
 
+**Descripción:**  
+Laura es una diseñadora gráfica de 27 años que trabaja como freelance desde casa en Granada. Le apasiona la moda, pero también le preocupa el impacto ambiental de la industria textil. Para ella, comprar ropa de segunda mano es una forma de ahorrar dinero y al mismo tiempo apoyar el consumo responsable. Su estilo es creativo y variado, por lo que siempre busca prendas únicas que la hagan destacar.  
+
+**Cita:**  
+*"Me encanta encontrar prendas únicas sin gastar demasiado. Comprar de segunda mano es una forma fácil de renovar mi armario y cuidar el planeta al mismo tiempo."*  
+
+---
+
+#### **Persona 2: Antonio Ruiz**  
+![Antonio Ruiz](P1/Persona2.png)  
+
+**Descripción:**  
+Antonio tiene 34 años y es profesor de secundaria en Granada. Siempre ha sido consciente del impacto ambiental de sus hábitos de consumo y prefiere comprar ropa de segunda mano antes que contribuir a la moda rápida. No le interesa seguir tendencias, pero valora la calidad y la durabilidad de las prendas. Busca opciones cómodas y funcionales para su trabajo y su día a día, priorizando la facilidad de compra y la sostenibilidad.  
+
+**Cita:**  
+*"No se trata solo de ahorrar dinero, sino de tomar decisiones más conscientes. La ropa que uso debe tener historia y propósito."*  
 
 ### 1.d User Journey Map
 ![Método UX](img/JourneyMap.png) 
