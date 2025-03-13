@@ -101,32 +101,43 @@ Antonio tiene 34 años y es profesor de secundaria en Granada. Siempre ha sido c
 #### **Experiencia de Usuario - Laura Gómez**
 ![User Journey Map 1](P1/UserJourneyMap1.png)  
 
-Laura valora la estética y la experiencia de compra fluida. Su recorrido en **Modare.org** refleja la exploración y comparación de productos antes de tomar una decisión. Uno de sus mayores problemas es la falta de información detallada en algunas prendas, lo que genera dudas al momento de la compra. Además, la espera en la entrega del pedido afecta su satisfacción general.  
+Laura valora la moda sostenible y busca prendas únicas con facilidad. Su experiencia en Modare.org se centra en su visita a una tienda física, donde esperaba encontrar ropa bien organizada y accesible. Sin embargo, se enfrenta a un desorden generalizado, lo que dificulta la búsqueda de prendas que realmente se ajusten a su estilo y talla. Durante su recorrido, se da cuenta de que un catálogo digital ayudaría a mejorar su experiencia, permitiéndole explorar opciones antes de visitar la tienda.
 
 **¿Es una experiencia habitual?**  
-Sí, muchos usuarios de plataformas de segunda mano buscan productos únicos y necesitan información clara antes de comprar. La incertidumbre sobre tallas y la calidad de las prendas son preocupaciones comunes. Mejorar la descripción y la visualización de los productos puede hacer que la experiencia sea más satisfactoria.  
+Sí, muchas personas que visitan tiendas de segunda mano pueden sentirse frustradas por la falta de organización y la dificultad para encontrar lo que buscan. La ausencia de un catálogo online impide a los clientes planificar su compra, lo que podría disuadirlos de regresar. Implementar una plataforma digital con consulta de stock en tienda y mejorar la señalización física ayudaría a optimizar la experiencia del usuario. 
 
 ---
 
 #### **Experiencia de Usuario - Antonio Ruiz**  
 ![User Journey Map 2](P1/UserJourneyMap2.png)  
 
-Antonio representa a un usuario práctico que prioriza la funcionalidad y la rapidez en la compra. Su mayor problema es la falta de confianza en la plataforma, ya que no encuentra suficiente información sobre la calidad de las prendas y la facilidad de devolución. También siente que el proceso de compra podría ser más rápido y eficiente.  
+Antonio descubrió Modare.org en una tienda física y vio una chaqueta que le interesaba, pero no pudo comprarla en ese momento. Más tarde, intentó encontrarla en la web para revisar detalles y verificar su disponibilidad, pero se llevó la sorpresa de que Modare.org no ofrece un catálogo online ni venta por internet. Esto le generó frustración, ya que no tenía forma de saber si la prenda seguía disponible sin volver físicamente a la tienda.
 
 **¿Es una experiencia habitual?**  
-Sí, muchos compradores de ropa de segunda mano, especialmente aquellos que priorizan la comodidad y la sostenibilidad, buscan plataformas que ofrezcan procesos claros y sin complicaciones. Optimizar la confianza del usuario con mejores filtros, descripciones más detalladas y procesos de pago rápidos puede mejorar la retención de este tipo de clientes.  
+Sí, muchos clientes esperan poder consultar productos online después de verlos en una tienda física, especialmente en el sector de la moda. La falta de digitalización en Modare.org dificulta la toma de decisiones y puede hacer que los usuarios busquen alternativas en otras plataformas con opciones más accesibles. La implementación de un catálogo digital con disponibilidad en tienda permitiría a los clientes planificar mejor sus compras y mejorar la experiencia general
 
 
 ### 1.e Usability Review
 ![Método UX](img/usabilityReview.png) 
 ----
+#### **Evaluación de Usabilidad de Modare.org**  
 
->>>  El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
->>> - Enlace al documento:  (xls/pdf) 
->>> - URL y Valoración numérica obtenida: 
->>> - Comentario sobre la revisión:  (puntos fuertes y débiles detectados)
+- **Enlace al documento:** [UsabilityReview.xlsx](P1/UsabilityReview.xlsx)  
+- **URL Evaluada:** [Modare.org](https://modare.org/)  
+- **Valoración numérica obtenida:** **73/100** → **Good**  
 
-<br>
+#### **Puntos Fuertes:**  
+- **Diseño limpio y organizado** que facilita la navegación en la página principal.  
+- **Información clara sobre la misión y valores** de la plataforma, promoviendo la moda sostenible.  
+- **Acceso fácil a información sobre reciclaje y sostenibilidad**, lo que refuerza su impacto positivo.  
+
+#### **Puntos Débiles:**  
+- **No hay catálogo online ni consulta de stock**, lo que limita la experiencia del usuario.  
+- **Falta de filtros de búsqueda o categorización**, dificultando encontrar productos específicos.  
+- **Escasa interacción con los clientes** y sin una vía rápida de contacto o atención al usuario.  
+
+#### **Comentario General:**  
+La web de **Modare.org** cumple con su función informativa sobre moda sostenible, pero presenta **deficiencias en usabilidad para la compra de productos**. La ausencia de un catálogo online y la falta de herramientas de búsqueda limitan la experiencia del usuario. Para mejorar, sería recomendable **digitalizar el inventario** y proporcionar un sistema de **búsqueda de productos** en la tienda física.  
 
 ## Paso 2. UX Design  
 

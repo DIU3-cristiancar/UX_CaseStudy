@@ -1,11 +1,13 @@
 ## DIU - Practica1, entregables
 
+- **Desk research:** [Análisis de Competencia](DeskResearch.md)
+- **Personas:**
+  - [Laura Gómez](Persona_LauraGomez.png)
+  - [Antonio Ruiz](Persona_AntonioRuiz.png)
+- **User Journey Maps:**  
+  - [User Journey - Laura Gómez](UserJourneyMap1.png)  
+  - [User Journey - Antonio Ruiz](UserJourneyMap2.png)
+- **Revisión de Usabilidad:** [Documento Usability Review](UsabilityReview.xlsx)
 
-- Desk research: Análisis Competencia 
-- 2 Personas 
-- 2 User Journey Map  ( 1 por persona)
-- Revisión de Usabilidad 
-
-
->>>> Este fichero se debe editar para que cada evidencia quede enlazada con el recurso subido a la carpeta de la practica. Se pide más detalle técnico en las descripciones de lo que sería el README principal del repositorio y que corresponde a la descripcion del Case Study.
->>>> Incluya aquí simpre una valoración final del equipo sobre la propia realización de la práctica
+> **Valoración final:**  
+> La práctica ha permitido analizar la usabilidad de una plataforma real y detectar áreas de mejora clave. La falta de un catálogo digital y herramientas de búsqueda en Modare.org dificulta la experiencia del usuario. A través del análisis, se han identificado oportunidades para mejorar la navegación y accesibilidad de la web, facilitando la compra de productos de segunda mano.
