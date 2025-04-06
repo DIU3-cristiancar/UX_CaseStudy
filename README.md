@@ -9,11 +9,11 @@ Actualizado: 04/03/2025
 
 Proyecto: 
 
->>> Decida el nombre corto de su propuesta en la práctica 2 
+Catálogo online para Modare
 
 Descripción: 
 
->>> Describa la idea de su producto en la práctica 2 
+Extensión de la web de Modare.org que añade un catálogo online con stock actualizado y filtros por talla, estilo o tipo de prenda. Permite a los usuarios consultar productos disponibles en tienda física, ver detalles y reservarlos fácilmente desde casa.
 
 Logotipo: 
 
