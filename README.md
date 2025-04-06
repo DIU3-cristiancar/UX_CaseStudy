@@ -141,56 +141,107 @@ La web de **Modare.org** cumple con su función informativa sobre moda sostenibl
 
 ## Paso 2. UX Design  
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
 ### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
 ![Método UX](img/feedback-capture-grid.png) 
 ----
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior. De qué carece la competencia?? Tu diagrama puede ser una figura subida a la carpeta P2/
+![Feedback Capture Grid](P2/feedbackCaptureGrid.png)
 
+---
 
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
-  
-    
->>> Explica el Problema y plantea una hipótesis. Es decir, explica aquí qué 
->>> se plantea como "propuesta de valor" para un nuevo diseño de aplicación propio
+#### **Hipótesis del rediseño:**
 
+Si se añade un apartado de catálogo online con stock actualizado y filtros por talla, estilo y disponibilidad, la experiencia de usuario mejorará, facilitando la compra y reduciendo la frustración.
+
+---
+
+#### **Propuesta de valor:**
+
+Mejorar la web existente añadiendo un apartado de catálogo digital conectado con el inventario físico, que permita consultar productos disponibles, filtrarlos y contactar directamente con la tienda.
 
 ### 2.b ScopeCanvas
 ![Método UX](img/ScopeCanvas.png)
 ----
 
->>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
->>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
-
+![Scope Canvas](P2/scopeCanvas.png)
 
 
 ### 2.b User Flow (task) analysis 
 ![Método UX](img/Sitemap.png) 
 -----
 
->>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
+![Task Flow](P2/taskflow.png)
 
+**Descripción breve:**  
+Este flujo representa cómo el usuario accede al catálogo digital desde la página principal, selecciona una prenda y realiza una reserva online. Refleja la mejora clave en la experiencia del usuario respecto a la versión actual de la web.
+
+![User Map](P2/userMap.png)
+
+**Descripción breve:**  
+Mapa jerárquico del sitio web que muestra la organización de las secciones principales, incluyendo el nuevo apartado de catálogo online y sus niveles de navegación interna.
 
 ### 2.c IA: Sitemap + Labelling 
 ![Método UX](img/labelling.png) 
 ----
 
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
+#### Tabla de etiquetado de la interfaz
 
-Término | Significado     
-| ------------- | -------
-  Login  | acceder a plataforma
+| Término              | Significado                                                   |
+|----------------------|---------------------------------------------------------------|
+| Inicio               | Página principal del sitio web                                |
+| Quiénes somos        | Información sobre el proyecto y su filosofía                  |
+| Sostenibilidad       | Contenido sobre prácticas responsables y economía circular    |
+| Catálogo             | Sección donde se listan los productos disponibles             |
+| Filtros              | Opciones para buscar por talla, tipo, color...                |
+| Lista de artículos   | Resultado visual de los productos filtrados                   |
+| Ficha de artículo    | Página con detalles del producto seleccionado                 |
+| Reservar             | Acción para apartar un producto disponible                    |
+| Contacto             | Página o botón para comunicarse con la tienda                 |
 
 
 ### 2.d Wireframes
 ![Método UX](img/Wireframes.png) 
 -----
 
->>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
+Se han diseñado wireframes para **dispositivos móviles y ordenadores** simulando la estructura y navegación del nuevo apartado de catálogo online. 
+
+Las pantallas incluyen:
+
+#### Versión móvil:
+
+###### Pantalla inicial
+ ![Pantalla inicial Móvil](P2/mobileLanding.png)
+
+###### Inicio con menú desplegado
+ ![Inicio con menú desplegado](P2/mobileLanding+Menu.png)
+
+###### Vista general del catálogo
+ ![Vista general del catálogo](P2/mobileCatalogo.png)
+
+###### Filtros
+ ![Filtros Móvil](P2/mobileCatalogo+Filtros.png)
+
+###### Ficha de Artículo
+ ![Ficha de Artículo Móvil](P2/mobileFichaArticulo.png)
+
+#### Versión escritorio:
+
+###### Pantalla inicial
+ ![Pantalla inicial](P2/pcLanding.png)
+
+###### Catálogo
+ ![Catálogo](P2/pcCatalogo.png)
+
+###### Catálogo con filtros
+ ![Catálogo con filtros](P2/pcCatalogo+Filtro.png)
+
+###### Ficha de Artículo
+ ![Ficha de Artículo](P2/pcFichaArticulo.png)
+
+---
+
+**Herramienta usada:**  
+Todos los wireframes se han realizado en **Figma**, utilizando el kit de componentes UI básico y ajustando elementos para representar el flujo de navegación planteado en el User Flow.
 
 <br>
 
