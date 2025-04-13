@@ -224,6 +224,9 @@ Las pantallas incluyen:
 ###### Ficha de Artículo
  ![Ficha de Artículo Móvil](P2/mobileFichaArticulo.png)
 
+###### Login
+ ![Login Móvil](P2/mobileLogin.png)
+
 #### Versión escritorio:
 
 ###### Pantalla inicial
@@ -238,12 +241,19 @@ Las pantallas incluyen:
 ###### Ficha de Artículo
  ![Ficha de Artículo](P2/pcFichaArticulo.png)
 
+###### Login
+ ![Login](P2/pcLogin.png)
+
 ---
 
 **Herramienta usada:**  
 Todos los wireframes se han realizado en **Figma**, utilizando el kit de componentes UI básico y ajustando elementos para representar el flujo de navegación planteado en el User Flow.
 
 <br>
+
+**Prototipos interactivos:**  
+- 💻 [Versión PC](https://www.figma.com/proto/TddvcX5VxrWGpxht68bFAP/Wireframe?node-id=575-1412&t=ZXvbFVGc0bCY3gkA-1)
+- 📱 [Versión móvil](https://www.figma.com/proto/TddvcX5VxrWGpxht68bFAP/Wireframe?node-id=577-1743&t=ZXvbFVGc0bCY3gkA-1)
 
 ## Paso 3. Mi UX-Case Study (diseño)
 

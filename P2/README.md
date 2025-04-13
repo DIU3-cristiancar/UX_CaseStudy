@@ -53,7 +53,6 @@ Mapa jerárquico del sitio web que muestra la organización de las secciones pri
 
 ### Prototipo Lo-FI Wireframe 
 
-
 Se han diseñado wireframes para **dispositivos móviles y ordenadores** simulando la estructura y navegación del nuevo apartado de catálogo online. 
 
 Las pantallas incluyen:
@@ -75,6 +74,9 @@ Las pantallas incluyen:
 ###### Ficha de Artículo
  ![Ficha de Artículo Móvil](mobileFichaArticulo.png)
 
+###### Login
+ ![Login Móvil](mobileLogin.png)
+
 #### Versión escritorio:
 
 ###### Pantalla inicial
@@ -89,10 +91,20 @@ Las pantallas incluyen:
 ###### Ficha de Artículo
  ![Ficha de Artículo](pcFichaArticulo.png)
 
+###### Login
+ ![Login](pcLogin.png)
+
 ---
 
 **Herramienta usada:**  
 Todos los wireframes se han realizado en **Figma**, utilizando el kit de componentes UI básico y ajustando elementos para representar el flujo de navegación planteado en el User Flow.
+
+<br>
+
+**Prototipos interactivos:**  
+- 💻 [Versión PC](https://www.figma.com/proto/TddvcX5VxrWGpxht68bFAP/Wireframe?node-id=575-1412&t=ZXvbFVGc0bCY3gkA-1)
+- 📱 [Versión móvil](https://www.figma.com/proto/TddvcX5VxrWGpxht68bFAP/Wireframe?node-id=577-1743&t=ZXvbFVGc0bCY3gkA-1)
+
 
 ### Conclusiones  
 Esta práctica me ha servido para plantear mejoras reales en la web, centradas en lo que necesitan los usuarios. Añadir un catálogo online con filtros y stock actualizado puede hacer la experiencia mucho más cómoda. Además, las herramientas como los wireframes o el user flow me han ayudado a organizar mejor las ideas y visualizar cómo sería la solución.
