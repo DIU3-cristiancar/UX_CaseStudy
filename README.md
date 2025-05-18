@@ -5,7 +5,7 @@ Prácticas Diseño Interfaces de Usuario (Tema: .... )
 
 Grupo: DIU3_cristiancar.  Curso: 2024/25 
 
-Actualizado: 04/03/2025
+Actualizado: 18/05/2025
 
 Proyecto: 
 
@@ -14,10 +14,6 @@ Catálogo online para Modare
 Descripción: 
 
 Extensión de la web de Modare.org que añade un catálogo online con stock actualizado y filtros por talla, estilo o tipo de prenda. Permite a los usuarios consultar productos disponibles en tienda física, ver detalles y reservarlos fácilmente desde casa.
-
-Logotipo: 
-
->>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
 
 Miembros:
  * :bust_in_silhouette:  [Cristian Cárdenas García](https://github.com/Cristiancar22)
@@ -257,46 +253,179 @@ Todos los wireframes se han realizado en **Figma**, utilizando el kit de compone
 
 ## Paso 3. Mi UX-Case Study (diseño)
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-
 ### 3.a Moodboard
 ![Método UX](img/moodboard.png)
 -----
 
->>> Diseño visual con una guía de estilos visual (moodboard) 
->>> Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
->>> Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
+#### Herramientas Utilizadas
+- **Figma** → Herramienta principal para diseño visual y prototipado, usada para construir tanto el moodboard como los wireframes.
+- **Capturas + edición propia de imágenes** para representar los valores y estilo de Modare (accesibilidad, sostenibilidad, economía circular).
+- **Ionicons** como librería de iconos accesibles y visualmente consistentes con la estética del proyecto.
 
+#### Contenido del Moodboard:
+1. **Gama de Colores** 
+   ![Método UX](P3/Moodboard-GamaColores.png) 
+   Paleta definida con 3 colores principales y una gama de apoyo en tonos neutros y vibrantes, con hex.
 
+2. **Tipografía** 
+   ![Método UX](P3/Moodboard-Tipografía.png) 
+   Fuente seleccionada: **Familjen Grotesk** (Google Fonts).  
+   Se muestra su uso en diferentes pesos (Bold, Regular, Italic).
+
+3. **Logotipo**
+   ![Método UX](P3/Moodboard-Logo.png) 
+   Logotipo actual de Modare con fondo blanco.
+
+4. **Inspiración visual** 
+
+   ![Método UX](P3/Moodboard-Inspiración1.png) 
+
+   ![Método UX](P3/Moodboard-Inspiración2.png) 
+   Ejemplos que inspiran la estética general: moda accesible, entorno limpio, visual moderno y amigable. Apoyan el enfoque sostenible y humano del proyecto.
+
+---
 ### 3.b Landing Page
 ![Método UX](img/landing-page.png) 
-----
+---
 
->>> Plantear el Landing Page del producto. Aplica estilos definidos en el moodboard
+#### Diseño de la página de inicio del catálogo online
 
+![Método UX](P3/LandingPage.png) 
 
+La Landing Page presenta el nuevo apartado digital para consultar y reservar prendas de segunda mano de forma accesible y sostenible.
+
+Este diseño **sigue las guías visuales del moodboard** e incluye los siguientes elementos destacados:
+
+- **Hero visual principal** con mensaje claro y emocional:
+  > *"Tu ropa favorita, ahora también online"*
+  Acompañado de un botón CTA destacado que invita a explorar el catálogo.
+
+- **Imagen protagonista**: representa el nuevo enfoque digital sin perder la esencia humana y cercana de Modare.
+
+- **Beneficios destacados con iconografía visual:**
+  - **Compra responsable**
+  - **Selección cuidada**
+  - **Comodidad y accesibilidad**
+
+- **Estética coherente con el branding**:
+  - Colores del moodboard (lavanda, negro, crema)
+  - Tipografía *Familjen Grotesk*
+  - Iconografía consistente (Ionicons)
+
+- **Footer informativo** con enlaces legales y sociales
+
+---
+
+#### Objetivo de esta Landing
+
+Transmitir en una sola vista:
+- La propuesta de valor del catálogo online.
+- La identidad visual y filosofía de Modare.
+- Acceso directo al producto y al proceso de navegación del usuario.
+
+Esta pantalla sirve como punto de entrada al sistema de reservas y filtro de prendas, y mantiene la conexión visual y emocional con la marca.
+
+---
 ### 3.c Guidelines
 ![Método UX](img/guidelines.png) 
 ----
+> Estudio de Guidelines y explicación de los Patrones IU a usar.  
 
->>> Estudio de Guidelines y explicación de los Patrones IU a usar 
->>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
+Se han definido los patrones de interfaz y elementos visuales clave para mantener coherencia y consistencia en la interfaz del catálogo online de Moda re-. A continuación, se presentan los principales componentes y decisiones:
+
+---
+
+#### 01. Paleta de colores  
+Define los colores principales, secundarios y de fondo usados en toda la interfaz.  
+![Paleta de Colores](P3/Guidelines-01.Paleta%20de%20Colores.png)
+
+---
+
+#### 02. Tipografía  
+Uso de la fuente **Familjen Grotesk**, en distintos pesos y tamaños para encabezados, texto regular y botones.  
+![Tipografía](P3/Guidelines-02.Tipografía.png)
+
+---
+
+#### 03. Iconografía  
+Uso del set de iconos **Ionicons** para navegación, acciones y redes sociales.  
+![Iconografía](P3/Guidelines-03.Iconografía.png)
+
+---
+
+#### 04. Menú  
+Menú hamburguesa con despliegue de pantalla completa en versión móvil.  
+![Menú](P3/Guidelines-04.Menú.png)
+
+---
+
+#### 05. Hero + Carousel  
+Componente de entrada visual destacado + carrusel informativo con beneficios del servicio.  
+![Hero Carousel](P3/Guidelines-05.HeroCarousel.png)
+
+---
+
+#### 06. Buscador  
+Input con placeholder e icono de búsqueda, incluye estados de hover y focus.  
+![Buscador](P3/Guidelines-06.Buscador.png)
+
+---
+
+#### 07. Lista de artículos  
+Componente que presenta las tarjetas de producto en una rejilla de 2 columnas en móvil.  
+![Lista Artículos](P3/Guidelines-07.ListaArtículos.png)
+
+---
+
+#### 08. Botones  
+Dos variantes principales (Tipo 1 y Tipo 2), con estados hover y desactivado.  
+![Botones](P3/Guidelines-08.Botones.png)
+
+---
+
+#### 09. Tags / Filtros  
+Etiquetas utilizadas como filtros por categoría. Estados: seleccionado y no seleccionado.  
+![Tags](P3/Guidelines-09.Tags.png)
 
 
 ### 3.d Mockup
 ![Método UX](img/mockup.png) 
 ----
 
->>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+A continuación se presentan los **Wireframes de Alta Fidelidad (Hi-Fi)** del catálogo online para Modare, diseñados en Figma siguiendo los estilos definidos en el moodboard y respetando las decisiones tomadas en las guidelines.
 
+Estos mockups simulan la experiencia real de usuario en un entorno móvil, mostrando la navegación principal, la consulta del catálogo, el uso de filtros y la visualización de detalles de los productos.
+
+---
+
+#### Versión móvil:
+
+###### Pantalla inicial  
+![Pantalla inicial Móvil](P3/Wireframe-Landing.png)
+
+###### Inicio con menú desplegado  
+![Inicio con menú desplegado](P3/Wireframe-Menu.png)
+
+###### Vista general del catálogo  
+![Vista general del catálogo](P3/Wireframe-Catalogo.png)
+
+###### Filtros  
+![Filtros Móvil](P3/Wireframe-FiltroCatalogo.png)
+
+###### Ficha de Artículo  
+![Ficha de Artículo Móvil](P3/Wireframe-FichaArticulo.png)
+
+###### Login  
+![Login Móvil](P3/Wireframe-Login.png)
+
+---
+
+**Enlace al prototipo en Figma:**  
+[Ver Mockup interactivo en Figma](https://www.figma.com/proto/TddvcX5VxrWGpxht68bFAP/Wireframe?node-id=604-1116&t=NnFxuIvuUXATmZpR-1)
 
 ### 3.e ¿My UX-Case Study?
 ![Método UX](img/caseStudy.png) 
 -----
-
->>> Publicar my Case Study en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
->>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
 
 <br>
 
