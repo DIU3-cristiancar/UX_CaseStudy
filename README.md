@@ -435,26 +435,69 @@ Estos mockups simulan la experiencia real de usuario en un entorno móvil, mostr
 ![Método UX](img/usability-testing.png)
 -----
 
->>> Breve descripción del caso asignado (llamado Caso-B) con enlace al repositorio Github
->>> Tabla y asignación de personas ficticias (o reales) a las pruebas. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Mínimo 4 usuarios: asigne 2 al Caso A y 2 al caso B.
+**Caso B asignado: La Tertulia**  
+Rediseño total de la página web de un bar cultural granadino para mejorar la estructura, la estética y el acceso a la información de actividades, contacto y participación. El proyecto incluye un calendario interactivo, sistema de favoritos, filtros, botón de participación y mejora del proceso de reserva.  
+🔗 [Repositorio de La Tertulia – DIU2.string](https://github.com/sofiiaglez11/DIU2-string)
+
+Se han reclutado 4 usuarios para realizar pruebas con los prototipos A y B. A cada participante se le ha asignado uno de los casos, y se han tenido en cuenta sus características para valorar situaciones de uso, posibles puntos de fricción y diversidad de perfiles tecnológicos.
+
+| Usuario               | Sexo/Edad | Ocupación    | Exp.TIC | Personalidad | Plataforma | Caso |
+|-----------------------|-----------|--------------|---------|--------------|------------|------|
+| Juan Carlos (User1)   | M / 23    | Estudiante   | Alta    | Introvertido | Móvil      | A    |
+| Daniel (User2)        | M / 23    | Estudiante   | Alta    | Analítico    | Móvil      | B    |
+| Marta (User3)         | F / 22    | Estudiante   | Media   | Curiosa      | Móvil      | A    |
+| Juana (User4)         | F / 53    | Trabajadora  | Baja    | Creativa     | Móvil      | B    |
+
+**Observaciones sobre usuarios:**
+- **Juan Carlos**, estudiante introvertido con alta experiencia TIC, podría sentirse perdido si la interfaz no es clara o si se presentan demasiadas opciones sin una jerarquía visual adecuada.
+- **Daniel**, estudiante analítico y con alta competencia digital, será sensible a problemas de coherencia visual, falta de feedback o navegación poco intuitiva.
+- **Marta**, joven estudiante curiosa con experiencia media, representa un perfil ideal para validar si la estructura y funciones básicas son fácilmente comprensibles sin ayuda.
+- **Juana**, trabajadora de 53 años con baja experiencia TIC, será clave para evaluar si el diseño es accesible, intuitivo y legible en móviles, especialmente para personas con menor familiaridad tecnológica.
 
 
-
-| Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
-| ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
-
-
-### 4.b Diseño de las pruebas 
-![Método UX](img/usability-testing.png) 
+### 4.b Diseño de las pruebas  
+![Método UX](img/usability-testing.png)  
 -----
 
->>> Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
+Para la evaluación de la práctica, se han diseñado pruebas centradas en comparar dos prototipos:  
+- **Caso A**: Catálogo online de Modare (nuestro proyecto)  
+- **Caso B**: Rediseño de la web “La Tertulia” (proyecto del grupo DIU2.string)
 
+Cada usuario evaluó uno de los prototipos (A o B) en función de su perfil, y realizó una serie de tareas representativas. Posteriormente, completaron el cuestionario SUS para valorar su experiencia subjetiva.
 
+#### Pruebas diseñadas:
+
+1. **A/B Testing**  
+   Se diseñaron 5 tareas realistas que representan escenarios de uso comunes para cada prototipo:
+
+   - Buscar un evento (en La Tertulia) o una prenda (en Modare).
+   - Marcarlo como favorito (actividad / prenda).
+   - Consultar la planificación de actividades o los filtros del catálogo.
+   - Realizar una reserva (evento o prenda).
+   - Contactar con el local o la tienda.
+
+   Las tareas se realizaron en remoto, con instrucciones claras para simular una navegación libre pero dirigida.
+
+2. **Checklist de usabilidad (opcional)**  
+   Tomamos como referencia algunos ítems del checklist de la práctica 1 para complementar la observación de los test:
+   - ¿Se entiende claramente qué se ofrece en la página?
+   - ¿Se localizan fácilmente las acciones importantes?
+   - ¿El sistema guía o deja solo al usuario?
+
+3. **Cuestionario SUS**  
+   Cada usuario completó el cuestionario SUS (System Usability Scale) tras la prueba, obteniendo una puntuación cuantitativa y una interpretación lingüística del nivel de usabilidad percibido.
+
+4. **Eye Tracking (solo para Caso B)**  
+   Se aplicó a “La Tertulia” usando capturas del prototipo. Se utilizaron herramientas como GazeRecorder o análisis manual para obtener insights visuales:
+   - Tiempo de atención en botones clave.
+   - Exploración de la página de actividades.
+   - Evaluación del diseño del menú.
+
+#### Herramientas utilizadas:
+- **Figma**: visualización de los prototipos.
+- **Maze**: para estructurar las pruebas (tareas + encuesta).
+- **Google Forms + Excel SUS**: recogida y cálculo de las puntuaciones.
+- **GazeRecorder / observación dirigida**: mapa de calor visual en prototipo B.
 
 ### 4.c Cuestionario SUS
 ![Método UX](img/Survey.png) 
