@@ -454,7 +454,6 @@ Se han reclutado 4 usuarios para realizar pruebas con los prototipos A y B. A ca
 - **Marta**, joven estudiante curiosa con experiencia media, representa un perfil ideal para validar si la estructura y funciones básicas son fácilmente comprensibles sin ayuda.
 - **Juana**, trabajadora de 53 años con baja experiencia TIC, será clave para evaluar si el diseño es accesible, intuitivo y legible en móviles, especialmente para personas con menor familiaridad tecnológica.
 
-
 ### 4.b Diseño de las pruebas  
 ![Método UX](img/usability-testing.png)  
 -----
@@ -476,18 +475,10 @@ Cada usuario evaluó uno de los prototipos (A o B) en función de su perfil, y r
    - Realizar una reserva (evento o prenda).
    - Contactar con el local o la tienda.
 
-   Las tareas se realizaron en remoto, con instrucciones claras para simular una navegación libre pero dirigida.
-
-2. **Checklist de usabilidad (opcional)**  
-   Tomamos como referencia algunos ítems del checklist de la práctica 1 para complementar la observación de los test:
-   - ¿Se entiende claramente qué se ofrece en la página?
-   - ¿Se localizan fácilmente las acciones importantes?
-   - ¿El sistema guía o deja solo al usuario?
-
-3. **Cuestionario SUS**  
+2. **Cuestionario SUS**  
    Cada usuario completó el cuestionario SUS (System Usability Scale) tras la prueba, obteniendo una puntuación cuantitativa y una interpretación lingüística del nivel de usabilidad percibido.
 
-4. **Eye Tracking (solo para Caso B)**  
+3. **Eye Tracking (solo para Caso B)**  
    Se aplicó a “La Tertulia” usando capturas del prototipo. Se utilizaron herramientas como GazeRecorder o análisis manual para obtener insights visuales:
    - Tiempo de atención en botones clave.
    - Exploración de la página de actividades.
@@ -496,48 +487,103 @@ Cada usuario evaluó uno de los prototipos (A o B) en función de su perfil, y r
 #### Herramientas utilizadas:
 - **Figma**: visualización de los prototipos.
 - **Maze**: para estructurar las pruebas (tareas + encuesta).
-- **Google Forms + Excel SUS**: recogida y cálculo de las puntuaciones.
-- **GazeRecorder / observación dirigida**: mapa de calor visual en prototipo B.
+- **Excel SUS**: recogida y cálculo de las puntuaciones.
+- **GazeRecorder**: mapa de calor visual en prototipo B.
+
+> **Enlace a las pruebas en Maze**  
+> - Prueba A (Modare): [https://t.maze.co/394030167](https://t.maze.co/394030167)  
+> - Prueba B (La Tertulia): [https://t.maze.co/390470315](https://t.maze.co/390470315)
 
 ### 4.c Cuestionario SUS
 ![Método UX](img/Survey.png) 
 ----
+Los resultados del cuestionario SUS muestran una **buena percepción general de la usabilidad** en ambos prototipos evaluados, aunque con diferencias notables entre los casos A y B.
 
->>> Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B). Para calcular la valoración numérica y la etiqueta linguistica resultante usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Previamente conozca en qué consiste la escala SUS y cómo se interpretan sus resultados
-http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
->>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
+- **Caso A (La Tertulia)** recibió puntuaciones **altas y consistentes (85/100)** por parte de ambos usuarios (Juan Carlos y Marta), ubicándose en el rango de **“Aceptable Tipo A” (the best)** según la escala SUS.  
+  Esto indica que el rediseño de “La Tertulia” ofrece una experiencia muy positiva y satisfactoria, tanto para usuarios con alta experiencia TIC como para aquellos con un perfil más explorador y menos técnico. Las tareas fueron completadas con fluidez, y no se detectaron problemas importantes en la navegación o comprensión.
+
+- **Caso B (Catálogo Modare)** presentó una mayor variabilidad entre usuarios. Daniel (perfil analítico y experiencia TIC alta) otorgó también una puntuación de **85/100**, similar al Caso A, lo que sugiere que usuarios técnicos se sienten cómodos en el entorno del catálogo.  
+  Sin embargo, **Juana (perfil creativo, baja experiencia TIC)** dio una valoración más baja (**65/100**), situada en la categoría **“Marginal D”**. Esto indica que, si bien el catálogo es funcional, **podría beneficiarse de mejoras en accesibilidad, claridad de las funciones y diseño más inclusivo** para personas con menos familiaridad digital.
+
+En conjunto, los datos sugieren que:
+
+- El rediseño de “La Tertulia” tiene una usabilidad excelente para diversos perfiles.
+- El catálogo de Modare es muy usable para usuarios técnicos, pero requiere **optimización para perfiles menos tecnológicos**.
 
 
 ### 4.d A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
->>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
+Para evaluar objetivamente la usabilidad de los prototipos, se analizaron los resultados de las tareas realizadas por los usuarios en cada caso. Se seleccionaron 3 tareas clave para la comparación:
+
+| Tarea                                           | Caso A (Modare)                           | Caso B (La Tertulia)                      |
+|------------------------------------------------|-------------------------------------------|-------------------------------------------|
+| 1. Buscar un elemento (prenda o evento)        | Ambos usuarios completaron la tarea sin dificultades. El buscador y los filtros fueron efectivos. | Los usuarios también localizaron fácilmente el evento. El diseño visual jerarquizado facilitó la tarea. |
+| 2. Consultar la planificación de actividades o los filtros del catálogo | En Modare, Daniel entendió rápidamente el uso de los filtros y los aplicó sin dificultad. Juana también logró utilizarlos, aunque necesitó más tiempo para comprender su funcionamiento. | En La Tertulia, la planificación de actividades fue clara y accesible para ambos usuarios. El calendario y la presentación de eventos facilitaron la consulta sin fricciones. |
+| 3. Realizar una reserva | Tanto Daniel como Juana completaron la reserva sin problemas.. | La reserva de evento fue sencilla para ambos perfiles, gracias a un botón claro y visible. |
+
 
 ### 4.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
 ----
 
->>> Indica cómo se diseña el experimento y se reclutan los usuarios. Explica la herramienta / uso de gazerecorder.com u otra similar. Aplíquese únicamente al caso B.
+Para analizar el comportamiento visual de los usuarios en el **Caso B (La Tertulia)**, se aplicó un experimento de **Eye Tracking** mediante la herramienta *GazeRecorder*. Este método nos permitió identificar las áreas de mayor atención durante la navegación por el prototipo móvil, evaluando así la claridad jerárquica y la eficacia visual de los elementos clave.
 
+#### Diseño del experimento
+Se seleccionaron tres pantallas fundamentales para el recorrido del usuario:
 
-![experimento](img/experimentoET.png)  
->>> Cambiar esta img por una de vuestro experimento. El recurso deberá estar subido a la carpeta P4/  
+1. **Página de actividades**  
+2. **Ficha de evento**  
+3. **Página principal con calendario**  
 
->>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
+Las tareas asignadas incluían:
+- Buscar un evento de interés.
+- Consultar las actividades planificadas para una semana.
+- Realizar una reserva en el evento seleccionado.
 
+#### Usuarios participantes
+El experimento fue aplicado a los usuarios asignados al Caso B:
+- **Daniel**: 23 años, estudiante con alta experiencia TIC.
+- **Juana**: 53 años, trabajadora con baja experiencia TIC.
+
+Ambos realizaron las pruebas en dispositivos móviles, y sus movimientos oculares fueron capturados para generar mapas de calor.
+
+#### Herramienta utilizada
+Se utilizó **[GazeRecorder](https://gazerecorder.com)** en su versión gratuita. Aunque limitada a tres usuarios para el análisis visual, permitió obtener datos suficientes para generar mapas de calor de las pantallas seleccionadas.
+
+#### Resultados visuales
+
+**Pantalla: Actividades**  
+Los usuarios centraron su atención en el **buscador superior**. 
+![Mapa de calor – Actividades](P4/mapa-calor-1.png)  
+![Captura – Actividades](P4/Actividades.png)
+
+---
+
+**Pantalla: Ficha de actividad**  
+Se detectaron puntos de atención en el **título del evento**, el **precio** y el **botón de participación**, lo cual confirma que los elementos clave están correctamente jerarquizados.  
+![Mapa de calor – Ficha actividad](P4/mapa-calor-2.png)  
+![Captura – Ficha actividad](P4/Actividad.png)
+
+---
+
+**Pantalla: Página principal con calendario**  
+El análisis visual muestra que el **calendario** y las imágenes superiores de eventos reciben alta atención. También destaca la interacción con el **menú inferior**.  
+![Mapa de calor – Página principal](P4/mapa-calor-3.png)  
+![Captura – Página principal](P4/PaginaPrincipal.png)
+
+---
+
+#### Conclusión
+
+Los resultados del Eye Tracking reflejan una correcta jerarquización visual en el prototipo de La Tertulia. Los usuarios localizaron fácilmente la información clave (eventos, fechas y botones de acción), y no se identificaron zonas de confusión visual destacables. Esto respalda la efectividad del diseño en cuanto a orientación y accesibilidad visual, incluso en perfiles con menor experiencia TIC.
 
 ### 4.f Usability Report de B
 ![Método UX](img/usability-report.png) 
 -----
 
->>> Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad. 
->>> Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
-
->>> Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
-
-
+[Usability Report](P4/Usability-Report.md)
 
 <br>
 
